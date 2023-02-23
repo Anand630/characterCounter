@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page-main-container {
+  padding: 50px 10%;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-containers-container {
+  border: 1px solid red;
+  height: 80vh;
+  width: 75vw;
+  flex-grow: 1;
+  min-height: 10px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.left-container {
+  background-color: #ffc533;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.title-heading {
+  font-family: Roboto;
+  font-size: 34px;
+  color: #0f172a;
+  font-weight: 600;
+  background-color: #ffbf1f;
+  border-radius: 8px;
+  height: 150px;
+  padding: 10px 15px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.words-and-count-container {
+  padding: 3px 8px;
+  list-style: none;
+}
+
+.word-and-count-text {
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.word-count {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.no-user-inputs-image {
+  width: 380px;
+  margin-top: 35px;
+}
+
+.right-container {
+  width: 50%;
+  padding: 10px 30px;
+  background-color: #0f172a;
+  color: #ffc533;
+}
+
+.character-count-heading {
+  font-family: Roboto;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.input-add-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-input {
+  width: 78%;
+  margin-right: 8px;
+  border-radius: 6px;
+  height: 35px;
+  border: none;
+  padding-left: 15px;
+  outline: none;
+  font-size: 15px;
+}
+
+.add-button {
+  height: 35px;
+  padding: 0 15px;
+  background-color: #ffc533;
+  color: #0f172a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 500;
+}
